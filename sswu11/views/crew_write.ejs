@@ -1,0 +1,26 @@
+<div class="crew">
+            <form name="crew_write_post" action="/crew_write" method="post">
+                <h2 class="crew_name">크루패스(동아리명)</h2><br/>
+                <div class="crew_date">
+                    <label >접수마감 날짜</label><br/>
+                    <input class="crew_end" name="recruit_end" type="date" />
+                </div>
+                <div class="poster">
+                    <label>포스터 첨부</label>
+                    <label style="font-size: 13px; color: red;">확장자 .jpg, .png만 가능</label><br/>
+                    <input type="file" name="detail_thumbnail" accept="image/jpg, image/jpeg, image/png">
+                    <br/>
+                </div>
+                <div class="crew_gather">
+                    <label>상세 모집 정보 작성</label></br>
+                    <input class="crew_gather_detail" name="detail_info" type="text">
+                    <br/>
+                </div>
+                <br/><br/><br/>
+
+                <input class="crew_upload" name="submit" type="submit" value="동아리 모집글 업로드">
+
+
+
+            </form>
+</div>
