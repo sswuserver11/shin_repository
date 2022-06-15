@@ -1,0 +1,48 @@
+<section>
+    <h2> <%= crew_info.crew_name %></h2>
+      <h3><font color = "gray">oo 동아리</font></h3>
+  </section>
+    <form name="login" action="passwordSearch.html" method="post">
+      <h4> <%=crew_info.application_question_1 %> </h4>
+      <h4> <%=crew_info.application_question_2 %></h4>
+      <h4> <%=crew_info.application_question_3 %> </h4>
+      <h4> <%=crew_info.application_question_4 %> </h4>
+      <h4><%=crew_info.application_question_5 %></h4>
+        <br> <br>
+
+       <table style="width: 100%; height: 300px; border: 1px solid black;" >
+                <tbody>
+                        <td> <%= application_basic.application_ans1 %> </td>
+                </tbody>
+         </table>
+        <br><br>
+
+        <table style="width: 100%; height: 300px; border: 1px solid black;" >
+                <tbody>
+                        <td> <%= application_basic.application_ans2 %> </td>
+                </tbody>
+         </table>
+        <br><br>
+
+        <table style="width: 100%; height: 300px; border: 1px solid black;" >
+                <tbody>
+                        <td> <%= application_basic.application_ans3 %> </td>
+                </tbody>
+         </table>
+        <br><br>
+
+        <table style="width: 100%; height: 300px; border: 1px solid black;" >
+            <tbody>
+                    <td> <%= application_basic.application_ans4 %> </td>
+            </tbody>
+     </table>
+    <br><br>
+
+     <table style="width: 100%; height: 300px; border: 1px solid black;" >
+            <tbody>
+                    <td> <%= application_basic.application_ans5 %> </td>
+            </tbody>
+     </table>
+    <br><br>
+
+</form>

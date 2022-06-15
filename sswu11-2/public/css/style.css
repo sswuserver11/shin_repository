@@ -1,0 +1,151 @@
+#wrap{
+    width: 100%;
+}
+
+#head {
+    height: 100px;
+    position: relative;
+}
+
+#title{
+    position: relative;
+}
+
+#head > #menu{
+    position: absolute;
+    right: 0; top: 0;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    margin-right:1%;
+}
+
+.side{
+    text-decoration:none;
+    color: black;
+}
+
+#wrap > #bottom > .apply_detail{
+    margin-left: 5%;
+}
+
+.apply_ques{
+    margin-left: 5%;
+}
+
+.apply_ans{
+    width: 90%; height: 200px; margin-left: 5%; margin-right: 5%;
+}
+
+.apply_file{
+    height: 100px; margin-left: 5%;
+}
+
+.apply_submit{
+    margin-left: 5%;
+   /* font-size: 20px;
+    width: 150px; 
+    height: 50px; 
+    background-color: lightgray;*/
+}
+
+
+
+.crew_info{
+    margin-left: 5%;
+}
+
+.crew_detail_info{
+    width: 90%;
+    height: 400px;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.crew{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+.crew_name{
+    margin-left: 5%;
+}
+
+.crew_date{
+    height: 100px;
+    margin-left: 5%;
+}
+
+.crew_start{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.crew_end{
+    width: 150px;
+    height: 30px;
+    font-size: 15px;
+}
+
+.crew_line{
+        margin-left:5%
+}
+
+
+.crew_gather{
+    margin-left:5%;
+}
+
+.crew_gather_detail{
+    width: 95%;
+    height: 400px;
+    margin-right:5%;
+}
+
+
+.crew_upload{
+    margin-left: 5%;
+   /* font-size: 20px; 
+    width: 250px; 
+    height: 50px; 
+    background-color: lightgray;*/
+}
+
+
+#setting{
+    line-height: 40px;
+}
+
+.word{
+    font-size: 40px;
+    text-align: center;
+}
+
+.fix{
+    width: 100%;
+    margin-left:30vw;
+    margin-right:30vw;
+}
+
+.name_check{
+    font-size: 25px;
+    font-weight: bold;
+    text-align:left;
+    line-height: 1px;
+}
+
+.crewname_check{
+    width: 30%;
+    text-align: left;
+}
+
+.check{
+    width: 5%;
+}
+
+.numb_check{
+    font-size: 25px;
+    font-weight: bold;
+    text-align:left;
+    line-height: 1px;
+}
